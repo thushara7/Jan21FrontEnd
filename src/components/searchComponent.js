@@ -14,10 +14,12 @@ const useStyles = makeStyles(theme => ({
 }));
 const SearchComponent = ({ data }) => {
   const classes = useStyles();
+  // states
   const [searchText, setSearchText] = useState("");
   const [displaySearchResult, setDisplaySearchResult] = useState("");
   const [searchError, setSearchError] = useState(false);
 
+  //handlers
   const handleSearchChange = e => {
     setSearchText(e.target.value);
   };

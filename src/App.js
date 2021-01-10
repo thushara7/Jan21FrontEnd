@@ -4,8 +4,7 @@ import { Button } from "@material-ui/core";
 import SearchComponent from "./components/searchComponent";
 import ViewLogComponet from "./components/viewLogComponet";
 import AddRecordsComponents from "./components/addRecordsComponents";
-import { template } from "@babel/core";
-import { file } from "@babel/types";
+
 function App() {
   //the mock data
   const [data, setData] = useState([
@@ -60,7 +59,9 @@ function App() {
       slotId: "slot10"
     }
   ]);
+  //state for error
   const [error, setError] = useState("");
+  // state and handler for search tab
   const [isSerach, setIsearch] = useState(false);
   const handleViewSearch = e => {
     setIsearch(true);
@@ -68,6 +69,7 @@ function App() {
     setIsAdd(false);
     setError("");
   };
+  // state and handler for view tab
   const [isView, setIsView] = useState(false);
   const handleView = e => {
     setIsView(true);
@@ -75,6 +77,7 @@ function App() {
     setIsAdd(false);
     setError("");
   };
+  // state and handler for modify records tab
   const [isAdd, setIsAdd] = useState(false);
   const handleAdd = e => {
     setIsAdd(true);
@@ -82,7 +85,6 @@ function App() {
     setIsView(false);
     setError("");
   };
-
   const AddRecord = (record, type) => {
     let temp = [...data];
     if (type === "entry") {

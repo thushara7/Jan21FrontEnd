@@ -10,24 +10,28 @@ const useStyles = makeStyles(theme => ({
 }));
 const AddRecordsComponents = ({ data, handleChangeRecords, error }) => {
   const classes = useStyles();
+  // state and handler for type dropdwon
   const [type, setType] = useState("");
   const handleChange = event => {
     setType(event.target.value);
   };
+  // state and handler for registration field
   const [registrationNo, setRegistrationNo] = useState("");
   const handleAddRegistration = e => {
     setRegistrationNo(e.target.value);
   };
-
+  // state and handler for color field
   const [color, setColor] = useState("");
   const handleColor = e => {
     setColor(e.target.value);
   };
+  // state and handler for slot field
   const [slot, setSlot] = useState("");
   const handleSlot = e => {
     setSlot(e.target.value);
   };
 
+  //handler for submit record
   const handleSubmit = e => {
     // logic to handle submit.
     const record = {
