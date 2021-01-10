@@ -54,16 +54,22 @@ const SearchComponent = ({ data }) => {
           <div>
             {" "}
             <h3> No of Vehicles found : {displaySearchResult.length}</h3>
-            <hr></hr>
           </div>
         )}
         {displaySearchResult &&
           displaySearchResult.length > 0 &&
           displaySearchResult.map(result => (
-            <div>
+            <div
+              style={{
+                backgroundColor: "#d7dcf3",
+                margin: "0.5rem 4rem",
+                borderRadius: "8px",
+                padding: "1rem"
+              }}
+            >
               <p>Slot id: {result.slotId} </p>{" "}
               <p>Registration number : {result.registrationNo} </p>{" "}
-              <p>Color: {result.color} </p> <hr></hr>
+              <p>Color: {result.color} </p>
             </div>
           ))}
         {searchError === true &&
