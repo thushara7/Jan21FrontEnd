@@ -8,12 +8,12 @@ In the project directory, you can run:
 
 ### steps to run the app
 
-step1.) Install Node
-step2.) Open the Project Directory in the terminal
-step3.)In the Root Folder in the terminal , type `npm install` to install dependencies.
-step4.)to run type `npm start`
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Install Node
+- Open the Project Directory in the terminal
+- In the Root Folder in the terminal , type `npm install` to install dependencies.
+- to run type `npm start`
+  Runs the app in the development mode.\
+  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Assumptions
 
