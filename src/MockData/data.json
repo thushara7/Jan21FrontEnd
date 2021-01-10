@@ -1,0 +1,52 @@
+[
+  {
+    "registrationNo": 1,
+    "color": "white",
+    "slotId": "slot1"
+  },
+  {
+    "registrationNo": 2,
+    "color": "white",
+    "slotId": "slot2"
+  },
+  {
+    "registrationNo": 3,
+    "color": "white",
+    "slotId": "slot3"
+  },
+  {
+    "registrationNo": 4,
+    "color": "white",
+    "slotId": "slot4"
+  },
+  {
+    "registrationNo": 5,
+    "color": "blue",
+    "slotId": "slot5"
+  },
+  {
+    "registrationNo": 6,
+    "color": "red",
+    "slotId": "slot6"
+  },
+  {
+    "registrationNo": 7,
+    "color": "white",
+    "slotId": "slot7"
+  },
+  {
+    "registrationNo": 8,
+    "color": "black",
+    "slotId": "slot8"
+  },
+  {
+    "registrationNo": 9,
+    "color": "white",
+    "slotId": "slot9"
+  },
+  {
+    "registrationNo": 10,
+    "color": "black",
+    "slotId": "slot10"
+  }
+]
